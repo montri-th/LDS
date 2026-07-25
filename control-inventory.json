@@ -1,0 +1,18 @@
+{
+  "artifact":"landometer-design-system-v0.8.7-adoption-preview",
+  "controls":[
+    {"id":"skip","job":"bypass header and hero","effect":"navigate to #try"},
+    {"id":"brand-home","job":"return to opening","effect":"navigate to #top"},
+    {"id":"theme","job":"choose Auto, Light, or Dark","effect":"update theme, local preference, and URL intent"},
+    {"id":"language","job":"switch Thai and English","effect":"update active language, local preference, and URL intent"},
+    {"id":"hero-primary","job":"reach role workbench","effect":"navigate to #try"},
+    {"id":"hero-reference","job":"open concise rules","effect":"navigate to #reference"},
+    {"id":"route","job":"move among Try, Align, Reference, and Changes","effect":"navigate to exact section"},
+    {"id":"role-tabs","job":"choose one role","effect":"render one prompt, comparison, next recipient, and URL role"},
+    {"id":"copy","job":"take active recipe into real work","effect":"copy prompt or select it for manual copy"},
+    {"id":"reference-details","job":"open one rule only when needed","effect":"toggle local disclosure"},
+    {"id":"manifest-links","job":"inspect release evidence","effect":"open manifest, inventory, QA, or current Living Reference"},
+    {"id":"closing-action","job":"return to workbench","effect":"navigate to #try"}
+  ],
+  "unavailableAndOmitted":["analytics","authentication","business-object save","share","invite","external effect"]
+}

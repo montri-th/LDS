@@ -1,0 +1,60 @@
+{
+  "testedAt": "2026-07-25",
+  "results": [
+    {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "h1": 1,
+      "ids": [],
+      "role": "design",
+      "lang": "th",
+      "theme": "light",
+      "logo": true,
+      "photo": true,
+      "primary": true,
+      "name": "desktop",
+      "errors": []
+    },
+    {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "h1": 1,
+      "ids": [],
+      "role": "design",
+      "lang": "th",
+      "theme": "light",
+      "logo": true,
+      "photo": true,
+      "primary": true,
+      "name": "mobile",
+      "errors": []
+    },
+    {
+      "scrollWidth": 320,
+      "clientWidth": 320,
+      "h1": 1,
+      "ids": [],
+      "role": "design",
+      "lang": "th",
+      "theme": "light",
+      "logo": true,
+      "photo": true,
+      "primary": true,
+      "name": "small",
+      "errors": []
+    },
+    {
+      "interaction": true,
+      "role": "marketing",
+      "lang": "en",
+      "themePreference": "light",
+      "selected": 439,
+      "copyStatus": "Prompt selected; use your copy command"
+    }
+  ],
+  "manualOpenGates": [
+    "Verify exact remote fonts and asset delivery after publication.",
+    "Owner review of Thai naturalness and full artifact-level v0.8.7 conformance.",
+    "Synthetic CityMETER fixture is not product evidence."
+  ]
+}

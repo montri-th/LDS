@@ -1,0 +1,27 @@
+{
+  "artifact": "landometer-design-system-v0.8.7-adoption-preview",
+  "prepared": "2026-07-25",
+  "sourceDesign": "Claude Design artifact 011eb127-06e1-4c9c-9c7d-71c1234b806e.zip",
+  "schemas": {"designSystem":"0.8.7","buildCard":"0.8.7","manifest":"2.0","tokens":6},
+  "artifactContract": {"product":"landometer","profile":"designsystem.adoption","pageKind":"adoption_preview","delivery":"deployable_public","language":"th","additionalLanguages":["en"]},
+  "publication": {"visibility":"public","evidenceStatus":"source_limited","indexable":false,"robots":"noindex,nofollow,noarchive"},
+  "experience": {
+    "oneJob":"help each role improve one evidence handoff without losing meaning",
+    "firstAha":"a role-specific Baseline / Assisted difference appears after choosing one role",
+    "primaryAction":"choose work to try",
+    "nextUsefulAction":"copy the active role recipe into real work",
+    "dominantObject":"citymeter.synthetic.area-comparison@0.8.7"
+  },
+  "proof": {"kind":"brand","object":"citymeter.synthetic.area-comparison@0.8.7","sourceStatus":"modelled","fixture":"synthetic","limitation":"not a current CityMETER result and not a real-site decision input"},
+  "architectureBoundary": {
+    "sharedLandometer":["Build Card","Land · Location · Living portfolio framing","Locale Insight methodology","evidence vocabulary","identity","interaction","accessibility","QA"],
+    "productSpecific":["datasets","users","workflow","permissions","scores","models","claims","voice","live capability","city/customer/project evidence"],
+    "comparisonRule":"Cross-city or cross-product comparison requires compatible schema, release, boundary, time, unit, and method; otherwise show incompatibility."
+  },
+  "assets": {
+    "logo":{"sourceRepository":"montri-th/Landometer","path":"deployment/assets/images/landometer-logo-banner.png","gitBlobSha":"e9dc8296d6532d3f32558ba1d638f4753cdd8b25","placement":"direct_surface"},
+    "teamPhoto":{"sourceRepository":"montri-th/Landometer","path":"deployment/assets/images/team-hero.jpg","gitBlobSha":"075caf193d6811b4bd42b03a18039aabf01e4732","role":"identity and culture support; not product evidence"}
+  },
+  "capabilities": {"themePreference":true,"languagePreference":true,"roleSelection":true,"copyPrompt":true,"analytics":false,"authentication":false,"businessObjectPersistence":false,"search":false,"share":false,"externalSideEffect":false},
+  "evidence": {"controlInventory":"control-inventory.json","browserQA":"qa/browser-smoke.json","machineValidation":"pending"}
+}
